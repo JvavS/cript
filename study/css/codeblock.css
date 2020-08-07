@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+div
+{
+	border:15px solid transparent;
+	width:300px;
+	padding:10px 20px;
+}
+
+#code
+{
+	-moz-border-image:url(./assets/border.png) 30 30 round;	/* Old Firefox */
+	-webkit-border-image:url(./assets/border.png) 30 30 round;	/* Safari and Chrome */
+	-o-border-image:url(./assets/border.png) 30 30 round;		/* Opera */
+	border-image:url(./assets/border.png) 30 30 round;
+}
